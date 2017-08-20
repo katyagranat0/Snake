@@ -46,6 +46,11 @@ class  NewJFrame extends javax.swing.JFrame {
         jLabel2.setText("Levels");//
 
         jButton1.setText("Play");
+        jButton1.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                jButton1ActionPerformed(evt);
+            }
+        });
 
         jButton2.setText("Exit");
 

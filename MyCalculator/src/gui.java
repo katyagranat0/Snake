@@ -5,6 +5,7 @@
  */
 
 import javax.swing.*;
+import java.awt.*;
 
 
 /**
@@ -135,7 +136,8 @@ class  NewJFrame extends javax.swing.JFrame {
     private void jButton1ActionPerformed(java.awt.event.ActionEvent evt) {
         Field gameField = new Field();
         gameField.createGameField();
-        jPanel1.setVisible(false);
+        Window rootWindow = SwingUtilities.getWindowAncestor(jPanel1);
+        rootWindow.setVisible(false);
 
         //JOptionPane.showMessageDialog(null, "Молодец "," Нажималка", JOptionPane.INFORMATION_MESSAGE);
     }

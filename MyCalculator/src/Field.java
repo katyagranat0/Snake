@@ -2,7 +2,7 @@ import javax.swing.*;
 import java.awt.*;
 
 public class Field {
-    public static void main(String[] args ) {
+    public static void createGameField() {
         JFrame myFrame = new JFrame("Змейка");
         JPanel Panel = new JPanel();
         Panel.setBackground(Color.black);

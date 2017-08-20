@@ -133,8 +133,11 @@ class  NewJFrame extends javax.swing.JFrame {
     }// </editor-fold>
 
     private void jButton1ActionPerformed(java.awt.event.ActionEvent evt) {
+        Field gameField = new Field();
+        gameField.createGameField();
+        jPanel1.setVisible(false);
 
-        JOptionPane.showMessageDialog(null, "Молодец "," Нажималка", JOptionPane.INFORMATION_MESSAGE);
+        //JOptionPane.showMessageDialog(null, "Молодец "," Нажималка", JOptionPane.INFORMATION_MESSAGE);
     }
 
 

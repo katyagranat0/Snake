@@ -4,6 +4,8 @@
  * and open the template in the editor.
  */
 
+import javax.swing.*;
+
 /**
  *
  * @author asus
@@ -123,6 +125,13 @@ class  NewJFrame extends javax.swing.JFrame {
 
         pack();
     }// </editor-fold>
+
+    private void jButton1ActionPerformed(java.awt.event.ActionEvent evt) {
+
+        JOptionPane.showMessageDialog(null, "Молодец "," Нажималка", JOptionPane.INFORMATION_MESSAGE);
+    }
+
+
 
     /**
      * @param args the command line arguments
